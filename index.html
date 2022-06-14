@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <!--Here is the Heading so to speak for the game-->
+    <h1>ROCK PAPER SCISSORS!!</h1>
+    <!--Here are the How to play instructions-->
+    <h3>How To Play:</h3>
+    <dd>Player: press R for Rock, press P for Paper, press S for scissors</dd>
+    <dd>Computer: randomly chooses rock, paper or scissors</dd>
+    <!-- Here are the rules of the game-->
+    <h3>Rules:</h3>
+    <dd>Rock beats Scissors</dd>
+    <dd>Scissors beats Paper</dd>
+    <dd>Paper beats Rock</dd>
+    <!-- Here is where the game starts-->
+    <h3>Game on!! </h3>     
+    <!--Player is prompted to press appropriate keystroke to start game-->
+    <p>Press R, P, or S to start!</p>
+    <!--Here is where the computers choice will be displayed-->
+    <div class="choice_displays computer">
+        <dd>Computer chose:</dd>
+        <dd class="display" id="display_computers_choice"></dd>
+    </div>
+    <!--Here is where the players choice will be dislayed-->
+    <div class="choice_displays player">
+        <dd>You chose:</dd>
+        <dd class="display" id="display_players_choice"></dd>
+    </div>
+    <!--Here is where the announcement of the results if the player won lost or tied are displayed-->
+    <div class="choice_displays">
+        <dd>Results:</dd>
+        <dd class="display" id="results"></dd>
+    </div>
+    <!--Here is where the totals of wins losses and draws are kept and displayed-->
+    <section id="totals">
+        <h3>Totals:</h3>
+        <div id="resultsLog">
+            <ul>Wins:</ul>
+            <li class="display" id="win_total"></li>
+            <ul>Losses:</ul>
+            <li class="display" id="loss_total"></li>
+            <ul>Draws:</ul>
+            <li class="display" id="draw_total"></li>
+        </div>
+    </section>
+    <!--Here is the java script link-->
+    <script src="index.js"></script>
+</body>
+
+</html>

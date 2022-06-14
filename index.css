@@ -1,0 +1,42 @@
+/*====
+MAIN BODY
+====*/
+body{
+    padding-left: 400px;   
+    height: 900px;
+    background-image: url(./typing_big.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: limegreen;   
+}
+/*=====
+displayed game play info
+====*/
+.display{
+    color:rgb(255,72,60)
+}
+/*=====
+computer and players choice display areas
+=====*/
+.choice_displays{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+/*======
+Results Totals Area
+====*/
+#resultsLog{    
+    display: flex;
+    flex-direction: row;
+}
+#resultsLog ul{
+    margin:0;
+}
+#resultsLog li{
+    list-style-type: none;
+    padding-left:10px;
+}
+
+
+
